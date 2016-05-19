@@ -9,25 +9,12 @@ A small tool to compare satellite imagery with the OSM streetmap to check for co
 3. Edit js/app.js and add your token value.
 4. That's it!
 
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
-
 ## Credits
 
 1. https://github.com/smeijer/L.GeoSearch
 2. https://github.com/digidem/leaflet-side-by-side
 3. http://leafletjs.com/
 
-TODO: Write credits
 
 ## License
 
