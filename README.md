@@ -9,6 +9,10 @@ A small tool to compare satellite imagery with the OSM streetmap to check for co
 3. Edit js/app.js and add your token value.
 4. That's it!
 
+## Demo
+http://chinmayms.com/satellite-streets/
+
+
 ## Credits
 
 1. https://github.com/smeijer/L.GeoSearch
