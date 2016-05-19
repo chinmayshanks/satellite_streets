@@ -20,7 +20,7 @@ A small tool to compare satellite imagery with the OSM streetmap to check for co
 
 **MIT**
 
-Copyright (c) 2015 Chinmay Shaligram
+Copyright (c) 2016 Chinmay Shaligram
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
