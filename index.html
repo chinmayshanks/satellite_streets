@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Satellite/Streets</title>
+	<meta charset="utf-8" />
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" content="Chinmay Shaligram" href=”https://plus.google.com/u/0/108026387522765940348/”/>
+    <meta name="description" content="Side-by-side comparison of satellite imagery and streetmap">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/l.geosearch.css" />
+</head>
+<body>
+    <h1 class="header">Satellite / Streets</h1>
+    <h4 class="header">A comparison tool for checking OSM map completeness around the world.</h4>
+	<div id="map"></div>
+    
+    <div class="center">
+        <strong>Use the geosearch (<img class="small" src="img/geosearch.png">) to search for places around the world. Click anywhere on the map to get the coordinates of that point.</strong>
+        <h3>Coordinates: <div class="coords"></div></h3>
+        <p>This tool is meant to be a supporting tool to OSM mappers. You can go to any place around the world and compare the mapping progress for that region. Click on the map above to get the coordinates for that point. Import those coordinates to your favourite OSM editor and get started!</p>
+        <footer>
+            <p>
+            </p>
+            <p></p>
+            <p class="bottom">Chinmay Shaligram, 2016</p>
+        </footer>
+    </div>
+    
+    
+	<script src="js/leaflet.js"></script>
+    <script src="js/leaflet-side-by-side.min.js"></script>
+    <script src="js/l.control.geosearch.js"></script>
+    <script src="js/l.geosearch.provider.openstreetmap.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'PT+Sans:400,700:latin' ] }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
+</body>
+</html>
